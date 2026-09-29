@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Penguin by Claire Falla</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+        
+        .metadata {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        
+        .metadata p {
+            margin: 8px 0;
+            font-size: 0.95em;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        ul {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 4px;
+        }
+        
+        li {
+            margin: 10px 0;
+        }
+        
+        .button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 20px;
+        }
+        
+        .button:hover {
+            background-color: #2980b9;
+        }
+        
+        #extraInfo {
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #ecf0f1;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Toy Penguin by Claire Falla</h1>
+        
+        <p>This toy penguin was made by New Zealand textile artist <strong>Claire Falla</strong>, who produced a range of New Zealand native animals between <strong>1960 - 1980</strong>. The toys were early examples of their type and were made and sold in New Zealand in response to the large number of Australian koalas and kangaroos available and the lack of New Zealand wildlife.</p>
+        
+        <h2>About Claire Falla</h2>
+        
+        <p>Claire was the daughter of the Dominion Museum's former director <strong>Dr Robert Falla</strong>, an ornithologist, and <strong>Molly Falla</strong>, the author of several books on birds. Claire was deeply concerned about the welfare of New Zealand native animals and made these toys as replicas in the hope that children would gain knowledge, understanding, and affection for them.</p>
+        
+        <p>Claire was actively involved in the welfare of animals as well — the Falla household regularly nursed sick penguins, kiwi, and on one occasion a kea.</p>
+        
+        <h2>Object Metadata</h2>
+        
+        <div class="metadata">
+            <p><strong>Title:</strong> Toy Penguin</p>
+            <p><strong>Creator:</strong> Claire Falla</p>
+            <p><strong>Date Created:</strong> 1960 - 1980</p>
+            <p><strong>Repository:</strong> <a href="https://www.tepapa.govt.nz/" target="_blank">Museum of New Zealand - Te Papa Tongarewa</a></p>
+            <p><strong>Collection:</strong> History</p>
+            <p><strong>Donor:</strong> Gift of Mrs C. M. James, 2012</p>
+            <p><strong>Source:</strong> <a href="https://www.jstor.org/stable/community.27028331" target="_blank">JSTOR Digital Collections</a></p>
+        </div>
+        
+        <h2>Significance</h2>
+        
+        <ul>
+            <li>Early example of New Zealand wildlife toys</li>
+            <li>Created to promote knowledge of native species</li>
+            <li>Reflects Claire's passion for animal welfare</li>
+            <li>Part of a larger collection of native animal replicas</li>
+            <li>Demonstrates the intersection of art, education, and conservation</li>
+        </ul>
+        
+        <h2>Learn More</h2>
+        
+        <p>To learn more about this toy penguin and similar objects:</p>
+        <ul>
+            <li><a href="https://www.tepapa.govt.nz/" target="_blank">Visit Te Papa Tongarewa (Museum of New Zealand)</a></li>
+            <li><a href="https://www.jstor.org/stable/community.27028331" target="_blank">View on JSTOR</a></li>
+        </ul>
+        
+        <button class="button" onclick="toggleInfo()">Show More About Animal Welfare</button>
+        
+        <div id="extraInfo">
+            <h3>Animal Welfare Context</h3>
+            <p>Claire Falla's work was pioneering in connecting children with wildlife and conservation. Her creation of these toy animals in the 1960s-1980s was ahead of its time in terms of promoting environmental awareness and animal welfare among young people. The fact that her household actively rescued and cared for sick native birds shows the family's deep commitment to animal welfare.</p>
+        </div>
+    </div>
+    
+    <script>
+        function toggleInfo() {
+            var element = document.getElementById("extraInfo");
+            if (element.style.display === "none") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
+
+<h1>Toy Penguin by Claire Falla</h1>
+
+<img src="images/penguin.jpg" alt="Toy penguin made by Claire Falla" style="max-width: 100%; height: auto; margin: 20px 0; border-radius: 4px;">
+
+<p>This toy penguin was made by New Zealand textile artist <strong>Claire Falla</strong>, who produced a range of New Zealand native animals between <strong>1960 - 1980</strong>. The toys were early examples of their type and were made and sold in New Zealand in response to the large number of Australian koalas and kangaroos available and the lack of New Zealand wildlife.</p>
